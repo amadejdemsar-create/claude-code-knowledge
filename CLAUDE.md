@@ -1,6 +1,6 @@
 # Claude Code Knowledge Base
 
-> Curated collection of Claude Code tutorials and best practices. Knowledge source for the claude-code-advisor agent and OpenClaw skill.
+> Curated collection of Claude Code tutorials and best practices. Knowledge source for the claude-code-advisor agent.
 
 ## Structure
 
@@ -8,7 +8,6 @@
 CLAUDE.md              # This file - project instructions
 SOURCES.md             # Index of all sources with topics and status
 sources/               # Tutorial content as numbered markdown files
-openclaw-skill/        # SKILL.md for OpenClaw publishing
 ```
 
 ## Your Role
@@ -27,9 +26,9 @@ Help the user with anything related to Claude Code:
 
 1. **Search sources/ first**: Always read the numbered tutorial files before answering from general knowledge
 2. **Reference specific sources**: Cite the source (e.g., "According to source 07, Boris recommends...") so the user can dig deeper
-3. **Give copy-paste ready output**: Exact config snippets, commands, and file paths - not abstract advice
+3. **Give copy-paste ready output**: Exact config snippets, commands, and file paths, not abstract advice
 4. **Distinguish source vs general knowledge**: If answering from training data rather than sources/, say so explicitly
-5. **Prefer sources over training data**: Sources may contain newer patterns - when they conflict with general knowledge, trust the sources
+5. **Prefer sources over training data**: Sources may contain newer patterns. When they conflict with general knowledge, trust the sources
 
 ## Knowledge Sources
 
